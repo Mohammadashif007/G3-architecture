@@ -81,6 +81,37 @@ nav li a {
     font-weight: 400;
 }
 
+/* main styles */
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.teams-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 8rem;
+    gap: 3rem;
+}
+.teams-img-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+}
+.teams-content-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.color-primary {
+    color: #ff900e;
+    font-weight: 700;
+}
+.color {
+    color: #727272;
+    font-weight: 500;
+}
 /* media query */
 
 /* for mobile devices */
