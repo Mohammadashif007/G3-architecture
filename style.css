@@ -1,5 +1,5 @@
 /* Work sense from google font */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap");
 
 /* Shared styles */
 
@@ -19,7 +19,6 @@
     padding: 0;
     font-family: "Work Sans", sans-serif;
 }
-
 
 /* header style */
 
@@ -71,7 +70,7 @@ nav li a {
 .banner-title {
     font-size: 4rem;
     font-weight: 700;
-    color:  #131313;
+    color: #131313;
     margin: 3rem 0;
 }
 .description {
@@ -112,9 +111,9 @@ main {
     color: #727272;
     font-weight: 500;
 }
-.card {
+.facts-card-container .card {
     border-radius: 8px;
-    border: 1px solid #FF900E;
+    border: 1px solid #ff900e;
     padding: 3rem;
 }
 .facts-container {
@@ -139,8 +138,47 @@ main {
     justify-content: space-evenly;
     align-items: center;
 }
-
-
+.feature-section {
+    margin: 5rem 8rem;
+    display: flex;
+    gap: 8rem;
+}
+.feature-section .card {
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 8px;
+    margin-top: 10px;
+}
+.feature-content {
+    /* flex: 1; */
+    width: 50%;
+}
+.feature-description {
+    margin: 0.8rem 0;
+}
+.feature-img {
+    /* width: 708px;
+    height: 982px; */
+    width: 50%;
+    flex: 1;
+}
+.feature-img img {
+    width: 100%;
+}
+.experience-btn {
+    background-color: #ff900e;
+    color: white;
+    border: none;
+    padding: 2rem;
+    border-radius: 8px;
+    position: relative;
+    bottom: 4rem;
+    left: -3rem;
+    width: 142px;
+    height: 100px;
+    text-align: center;
+}
 
 /* media query */
 
@@ -158,7 +196,6 @@ main {
     }
     .teams-img-container {
         grid-template-columns: 1fr;
-        
     }
     .facts-card-container {
         flex-direction: column;
