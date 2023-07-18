@@ -163,6 +163,10 @@ main {
     .facts-card-container {
         flex-direction: column;
     }
+    .sponsor-img-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
 }
 
 /* for medium or tablet */
